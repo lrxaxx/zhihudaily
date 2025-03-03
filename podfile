@@ -1,0 +1,20 @@
+source ‘https://github.com/CocoaPods/Specs.git’
+
+platform:ios,'9.0'
+
+target '知乎日报' do
+ 
+pod 'LookinServer', :configurations => ['Debug']
+
+pod 'YYModel'
+
+pod 'AFNetworking', '~> 4.0'
+
+pod 'Masonry'
+
+pod 'SDWebImage'
+
+pod 'FMDB'
+
+
+end
